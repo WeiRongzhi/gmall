@@ -27,7 +27,7 @@ public class AttrServiceImpl implements AttrService {
 
     @Override
     public PmsBaseAttrInfo saveAttrInfo(PmsBaseAttrInfo pmsBaseAttrInfo) {
-        int insert = pmsBaseAttrInfoMapper.insert(pmsBaseAttrInfo);
+        pmsBaseAttrInfoMapper.insert(pmsBaseAttrInfo);
         return null;
     }
 
